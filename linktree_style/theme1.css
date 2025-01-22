@@ -1,0 +1,68 @@
+/* General Reset */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Center Container Styling */
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 700px; /* Adjust width to your liking */
+    width: 100%;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Slogan or Intro Text */
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Bullet Items Style */
+ul {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 550px; /* Smaller width for lists */
+    text-align: left;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li a {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+li em {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
